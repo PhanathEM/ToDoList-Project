@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App-Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  </head>
+  <body class="light-mode">
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+      <i class="bi bi-moon-fill" id="theme-icon"></i>
+    </button>
+
+    <div class="todo-container">
+      <header>
+        <h1>My Day</h1>
+        <p id="date-string"></p>
+
+        <div class="progress-container">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <span id="progress-text">0% completed</span>
+      </header>
+
+      <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Add a new task..." autocomplete="off" required />
+        <button type="submit" aria-label="Add task">
+          <i class="bi bi-plus-lg"></i>
+        </button>
+      </form>
+
+      <ul id="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
