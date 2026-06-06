@@ -45,7 +45,7 @@ todo-app/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/PhanathEM/ToDoList-Project.git
 ```
 
 ### 2. Open the project
@@ -53,7 +53,7 @@ git clone https://github.com/your-username/todo-app.git
 Navigate to the project folder:
 
 ```bash
-cd todo-app
+cd ToDoList-Project
 ```
 
 ### 3. Run the application
